@@ -29,5 +29,5 @@ QA_input = {
 res = nlp(QA_input)
 
 if st.button("Answer"):
- st.write(res[3])
+ st.write(res["answer])
 
