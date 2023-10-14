@@ -1,6 +1,6 @@
 import streamlit as st
 import torch
-import transformers
+
 
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 model_name = "deepset/roberta-base-squad2"
