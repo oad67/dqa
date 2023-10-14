@@ -8,7 +8,7 @@ import torch
 #model_name = "deepset/roberta-base-squad2"
 
 st.set_page_config(page_title="Contextual QnA App_OA")
-st.write("Text Summarizer")
+st.write("QnA App_OA")
 
 #import nltk
 
