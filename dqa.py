@@ -15,15 +15,15 @@ model_name = "deepset/roberta-base-squad2"
 
 nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
 
-C1=st.text_area("Enter Context:")
-Q1=st.text_area("Enter Question:")
+C=st.text_area("Enter Context:")
+Q=st.text_area("Enter Question:")
 
 clicked=st.button("Answer")
 
 
 QA_input = {
-    'question': Q1,
-    'context': C1
+    'question': Q,
+    'context': C
 }
 
 res = nlp(QA_input)
