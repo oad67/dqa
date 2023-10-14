@@ -2,8 +2,11 @@ import streamlit as st
 import torch
 
 
-from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
-model_name = "deepset/roberta-base-squad2"
+from transformers import pipeline
+#from transformers import AutoModelForQuestionAnswering
+#from transformers import AutoTokenizer
+
+#model_name = "deepset/roberta-base-squad2"
 
 st.set_page_config(page_title="Contextual QnA App_OA")
 st.write("Text Summarizer")
