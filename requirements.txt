@@ -6,3 +6,4 @@ xgboost==1.7.5
 joblib==1.2.0
 nltk==3.5
 torch==2.0.1
+tensorflow==2.12.0
