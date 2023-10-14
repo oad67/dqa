@@ -1,7 +1,7 @@
 import streamlit as st
 import torch
 
-#from transformers import pipeline
+from transformers import pipeline
 #from transformers import AutoModelForQuestionAnswering
 #from transformers import AutoTokenizer
 
