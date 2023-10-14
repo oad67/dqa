@@ -2,7 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import torch
-import transformers
+
+
 from transformers import pipeline
 #from transformers import AutoModelForQuestionAnswering
 #from transformers import AutoTokenizer
