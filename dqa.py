@@ -22,8 +22,8 @@ clicked=st.button("Answer")
 
 
 QA_input = {
-    'question': Q,
-    'context': C
+    'question': Q1,
+    'context': C1
 }
 
 res = nlp(QA_input)
